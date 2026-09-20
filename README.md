@@ -90,8 +90,8 @@ Completed structured training in Manual Testing, Core Java, Selenium WebDriver a
 ## 📫 Connect With Me
 
 - GitHub: https://github.com/richasharma-testcraft
-- Upwork: Add Richa's Upwork profile link here
-- LinkedIn: Add Richa's LinkedIn profile link here
+- Upwork: https://www.upwork.com/freelancers/~01ddc41dc7980f70ea?mp_source=share
+- LinkedIn: linkedin.com/in/richa-sharma-467714388
 
 ---
 > This GitHub profile contains independent demonstration projects created to showcase QA automation skills. No employer or client proprietary code, credentials, test data, or confidential information is included.
