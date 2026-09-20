@@ -32,38 +32,6 @@ I build maintainable automation frameworks, create reliable test suites, investi
 - Maven
 - Jira
 
-## 📂 Featured Projects
-
-### Playwright UI Automation
-Independent Playwright automation project demonstrating:
-- Page Object Model
-- UI automation
-- Cross-browser testing
-- Test reporting
-- Reusable test components
-
-### Selenium Java Automation
-Independent Selenium WebDriver framework demonstrating:
-- Java
-- TestNG
-- Page Object Model
-- WebDriver automation
-- Test execution and reporting
-
-### API Automation
-Independent API testing project demonstrating:
-- REST Assured
-- API validation
-- Request/response verification
-- Positive and negative test scenarios
-
-### CI Automation
-Automation project demonstrating:
-- Jenkins
-- Automated test execution
-- Test reporting
-- CI-based regression testing
-
 ## 🎯 QA Focus Areas
 
 - UI Test Automation
