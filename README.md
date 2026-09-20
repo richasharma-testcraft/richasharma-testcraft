@@ -76,22 +76,36 @@ Automation project demonstrating:
 - CI/CD Test Automation
 - Defect Investigation
 
-## 💼 Experience
+## 💼 Professional Experience
 
-### QA Automation Engineer
-Currently working on UI automation and end-to-end testing using Playwright.
+### QA Automation Engineer — Dilato
+**June 2026 – Present**
 
-### Software Test Engineer
-Worked with Selenium WebDriver, Java, TestNG and Page Object Model for manual and automated testing.
+- Develop and maintain UI automation tests using Playwright.
+- Automate end-to-end web application workflows.
+- Support regression and functional testing.
+- Investigate and troubleshoot automated test failures.
+- Contribute to reliable and maintainable automation suites.
 
-### Software QA Trainee
-Completed structured training in Manual Testing, Core Java, Selenium WebDriver and API Testing.
+### Software Test Engineer — TEKPYRAMID
+**November 2025 – May 2026**
+
+- Designed and executed manual and automated test cases.
+- Worked with Selenium WebDriver using Java.
+- Used TestNG and Page Object Model for automation.
+- Supported regression and functional testing.
+
+### Software QA Trainee — QSPIDERS
+**January 2025 – October 2025**
+
+- Completed structured training in Manual Testing and Core Java.
+- Practiced Selenium WebDriver automation.
+- Worked with API testing concepts and testing fundamentals.
 
 ## 📫 Connect With Me
 
 - GitHub: https://github.com/richasharma-testcraft
 - Upwork: https://www.upwork.com/freelancers/~01ddc41dc7980f70ea?mp_source=share
-- LinkedIn: linkedin.com/in/richa-sharma-467714388
-
+- LinkedIn: https://www.linkedin.com/in/richa-sharma-467714388
 ---
 > This GitHub profile contains independent demonstration projects created to showcase QA automation skills. No employer or client proprietary code, credentials, test data, or confidential information is included.
