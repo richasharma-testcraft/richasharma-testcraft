@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=210&section=header&text=Richa%20Sharma&fontSize=54&fontAlignY=36&animation=fadeIn&desc=SDET%20%C2%B7%20Test%20Automation%20Engineer&descAlignY=58&descSize=20" alt="Richa Sharma, SDET" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=210&section=header&text=Richa%20Sharma&fontSize=54&fontAlignY=36&animation=twinkling&desc=SDET%20%C2%B7%20Test%20Automation%20Engineer&descAlignY=58&descSize=20" alt="Richa Sharma, SDET" />
 
 <a href="https://github.com/richasharma-testcraft">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=760&lines=Software+Development+Engineer+in+Test;I+build+test+frameworks+that+teams+trust;Playwright+%7C+Selenium+%7C+API+%7C+CI%2FCD;Open+for+freelance+projects" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=820&lines=Software+Development+Engineer+in+Test;I+build+automation+frameworks+teams+trust;Frameworks+integrated+with+Jenkins+CI%2FCD;Playwright+%7C+Selenium+%7C+REST+API;Open+for+freelance+projects" alt="Typing animation" />
 </a>
 
 <br/>
@@ -11,6 +11,11 @@
 [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01ddc41dc7980f70ea?mp_source=share)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/richa-sharma-467714388)
 [![Status](https://img.shields.io/badge/Status-Open%20for%20freelance-2EA043?style=for-the-badge)](https://www.upwork.com/freelancers/~01ddc41dc7980f70ea?mp_source=share)
+![Profile views](https://komarev.com/ghpvc/?username=richasharma-testcraft&label=Profile%20views&color=0e75b6&style=for-the-badge)
+
+<br/><br/>
+
+<img src="./assets/sdet-desk.svg" alt="Animated illustration of an SDET at work while automated tests pass" width="800" />
 
 </div>
 
@@ -24,29 +29,25 @@ I help startups and small teams replace slow, flaky or missing testing with **ma
 
 > 🧠 **My approach:** tests are code. They should be readable, reusable, deterministic, and cheap to maintain.
 
----
+<div align="center">
 
-## 🧭 How Tests Fit Into Delivery
+<img src="./assets/terminal.svg" alt="Animated terminal showing a Playwright test run passing" width="800" />
 
-```mermaid
-flowchart LR
-    A["Push / Pull request"] --> B["Build"]
-    B --> C["API and integration checks"]
-    C --> D["UI end-to-end tests<br/>Playwright / Selenium"]
-    D --> E["Reports, traces, screenshots"]
-    E --> F["Fast feedback to the team"]
-```
+</div>
 
 ---
 
-## 🤝 How I Can Help
+## 🏗️ What I Can Build
+
+> ⭐ **I design and build automation frameworks from scratch and integrate them with Jenkins CI/CD.**
 
 | Service | What you get |
 | --- | --- |
-| 🎭 **Playwright E2E framework** | TypeScript framework with Page Objects, fixtures, cross-browser runs, traces and HTML reports |
+| 🏗️ **Automation framework from scratch** | A clean, scalable framework (Playwright/TypeScript or Selenium/Java/TestNG) with Page Objects, config management, reusable utilities and reporting |
+| 🔁 **Jenkins integration** | Your framework wired into a Jenkins pipeline (`Jenkinsfile`) with parameterized suite runs, test reports and archived artifacts |
+| 🎭 **Playwright E2E testing** | Cross-browser tests with fixtures, traces, screenshots and HTML reports |
 | 🔌 **API test automation** | REST Assured or Postman suites with assertions, schema checks and reusable test data |
 | ☕ **Selenium framework work** | Java + TestNG + Maven frameworks built, cleaned up, or migrated toward Playwright |
-| 🔁 **Tests in CI/CD** | Automated runs on Jenkins or GitHub Actions for every push or pull request |
 | 🧪 **Flaky test rescue** | Root-cause analysis of unstable tests and a concrete plan to stabilize them |
 | ✅ **Regression and smoke suites** | Prioritized, automated coverage of your critical user flows |
 
@@ -56,10 +57,70 @@ flowchart LR
 | --- | --- |
 | 🔍 **Test Automation Audit** | A review of your current tests and CI, with a clear prioritized improvement plan |
 | 🚀 **Framework Starter** | A new, well-structured automation framework set up for your app |
+| 🔗 **Framework + Jenkins Setup** | A framework delivered together with its Jenkins pipeline, ready for your team to run |
 | 🔧 **Rescue and Stabilize** | An existing flaky or slow suite made reliable and faster |
-| 🔁 **CI Integration** | Your existing tests wired into a reliable pipeline with reports |
 
 > 💬 Scope and pricing are tailored to your project. Tell me what you're testing and I'll suggest a first step.
+
+---
+
+## 🧱 Framework Architecture I Build
+
+```mermaid
+flowchart TB
+    T["Test layer<br/>specs, scenarios, test data"] --> P["Page Objects / API clients"]
+    P --> C["Core layer<br/>driver, fixtures, config, utilities"]
+    C --> R["Reporting<br/>HTML, traces, screenshots, logs"]
+    C --> E["Environments<br/>local, staging, CI"]
+```
+
+## 🔁 Framework to Jenkins, End to End
+
+<div align="center">
+
+<img src="./assets/pipeline.svg" alt="Animated pipeline: commit, build, API tests, UI tests, Jenkins, report" width="800" />
+
+</div>
+
+<details>
+<summary><b>👀 Example of a Jenkins pipeline I set up (illustrative)</b></summary>
+<br/>
+
+```groovy
+pipeline {
+  agent any
+
+  tools {
+    maven 'Maven3'
+    jdk 'JDK17'
+  }
+
+  parameters {
+    choice(name: 'SUITE', choices: ['smoke', 'regression'], description: 'Test suite to run')
+  }
+
+  stages {
+    stage('Checkout') {
+      steps { checkout scm }
+    }
+    stage('Build') {
+      steps { sh 'mvn -B clean compile' }
+    }
+    stage('Test') {
+      steps { sh "mvn -B test -Dsuite=${params.SUITE}" }
+    }
+  }
+
+  post {
+    always {
+      junit 'target/surefire-reports/*.xml'
+      archiveArtifacts artifacts: 'target/**/*.html', allowEmptyArchive: true
+    }
+  }
+}
+```
+
+</details>
 
 ---
 
@@ -68,7 +129,7 @@ flowchart LR
 1. **Understand** the product, risks and what actually needs protecting
 2. **Design** a framework structure that fits the team and the stack
 3. **Build** readable, deterministic tests with stable locators and clean data setup
-4. **Integrate** into CI with useful reports, traces and failure artifacts
+4. **Integrate** into Jenkins or GitHub Actions with useful reports, traces and failure artifacts
 5. **Hand off** with documentation so your team can maintain and extend it
 
 ---
@@ -86,6 +147,7 @@ flowchart LR
 ![REST Assured](https://img.shields.io/badge/REST%20Assured-2C7A39?style=flat-square)
 ![Page Object Model](https://img.shields.io/badge/Page%20Object%20Model-6E40C9?style=flat-square)
 ![Cross Browser](https://img.shields.io/badge/Cross--Browser%20Testing-0A66C2?style=flat-square)
+![Jenkins CI](https://img.shields.io/badge/Jenkins%20CI%2FCD-D24939?style=flat-square&logo=jenkins&logoColor=white)
 
 </div>
 
@@ -94,7 +156,8 @@ flowchart LR
 | **UI automation** | Playwright, Selenium WebDriver, TestNG, Page Object Model |
 | **API testing** | REST Assured, Postman |
 | **Languages** | TypeScript, JavaScript, Java |
-| **CI/CD and tooling** | Jenkins, GitHub, Maven, Jira |
+| **Framework design** | Page Objects, fixtures, config management, reporting |
+| **CI/CD and tooling** | Jenkins (Jenkinsfile pipelines), GitHub, Maven, Jira |
 
 ---
 
@@ -105,8 +168,8 @@ Uncomment and edit this section as each demo repo goes live.
 | Project | What it shows | Stack |
 | --- | --- | --- |
 | [playwright-ts-framework](https://github.com/richasharma-testcraft/playwright-ts-framework) | End-to-end framework with Page Objects, fixtures, reporting and CI | Playwright, TypeScript, GitHub Actions |
+| [selenium-testng-jenkins](https://github.com/richasharma-testcraft/selenium-testng-jenkins) | Selenium framework with POM, TestNG and a Jenkinsfile | Java, Selenium, TestNG, Maven, Jenkins |
 | [api-automation-restassured](https://github.com/richasharma-testcraft/api-automation-restassured) | API test suite with reusable specs and reports | Java, REST Assured, TestNG, Maven |
-| [selenium-testng-framework](https://github.com/richasharma-testcraft/selenium-testng-framework) | Selenium framework with POM, TestNG and Jenkins pipeline | Java, Selenium, TestNG, Jenkins |
 -->
 
 <!--
@@ -121,7 +184,7 @@ Uncomment after a few weeks of activity; stat cards look empty on a new profile.
 
 <!--
 ## 🐍 Contribution Snake
-Uncomment after adding the snake workflow (.github/workflows/snake.yml) and letting it run once.
+Uncomment after adding .github/workflows/snake.yml and running it once.
 
 <div align="center">
   <picture>
