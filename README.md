@@ -1,79 +1,65 @@
 # Hi, I'm Richa Sharma 👋
 
-### QA Automation Engineer | Playwright | Selenium | API Testing | Jenkins
+### QA Automation Engineer · Playwright · Selenium · API Testing · CI/CD
 
-QA Automation Engineer specializing in UI and API test automation using Playwright, Selenium WebDriver, Java, JavaScript, TypeScript, REST Assured, Postman, TestNG and Jenkins.
+I help startups and small teams ship with confidence by building **reliable, maintainable test automation**: UI and API suites that run in CI and don't break every sprint.
 
-I build maintainable automation frameworks, create reliable test suites, investigate test failures, and support functional, regression, smoke and cross-browser testing.
+📩 **Open for freelance projects.** [Message me on Upwork](https://www.upwork.com/freelancers/~01ddc41dc7980f70ea?mp_source=share) or [connect on LinkedIn](https://www.linkedin.com/in/richa-sharma-467714388).
 
-## 🛠️ Technical Skills
-
-### Test Automation
-- Playwright
-- Selenium WebDriver
-- TestNG
-- Page Object Model
-- UI Automation
-- Cross-Browser Testing
-
-### API Testing
-- REST API Testing
-- REST Assured
-- Postman
-
-### Programming
-- Java
-- JavaScript
-- TypeScript
-
-### CI/CD & Tools
-- Jenkins
-- GitHub
-- Maven
-- Jira
-
-## 🎯 QA Focus Areas
-
-- UI Test Automation
-- API Testing
-- Functional Testing
-- Regression Testing
-- Smoke Testing
-- Cross-Browser Testing
-- Test Framework Development
-- CI/CD Test Automation
-- Defect Investigation
-
-## 💼 Professional Experience
-
-### QA Automation Engineer — Dilato
-**June 2026 – Present**
-
-- Develop and maintain UI automation tests using Playwright.
-- Automate end-to-end web application workflows.
-- Support regression and functional testing.
-- Investigate and troubleshoot automated test failures.
-- Contribute to reliable and maintainable automation suites.
-
-### Software Test Engineer — TEKPYRAMID
-**November 2025 – May 2026**
-
-- Designed and executed manual and automated test cases.
-- Worked with Selenium WebDriver using Java.
-- Used TestNG and Page Object Model for automation.
-- Supported regression and functional testing.
-
-### Software QA Trainee — QSPIDERS
-**January 2025 – October 2025**
-
-- Completed structured training in Manual Testing and Core Java.
-- Practiced Selenium WebDriver automation.
-- Worked with API testing concepts and testing fundamentals.
-
-## 📫 Connect With Me
-
-- GitHub: https://github.com/richasharma-testcraft
-- Upwork: https://www.upwork.com/freelancers/~01ddc41dc7980f70ea?mp_source=share
-- LinkedIn: https://www.linkedin.com/in/richa-sharma-467714388
 ---
-> This GitHub profile contains independent demonstration projects created to showcase QA automation skills. No employer or client proprietary code, credentials, test data, or confidential information is included.
+
+## 🤝 How I Can Help
+
+| Service | What you get |
+| --- | --- |
+| **Playwright E2E test setup** | A clean TypeScript/JavaScript framework with Page Objects, fixtures, cross-browser runs and HTML reports |
+| **API test automation** | REST Assured (Java) or Postman suites with assertions, schema checks and reusable test data |
+| **Selenium framework work** | Java + TestNG + Maven frameworks built or cleaned up, plus migration help toward Playwright |
+| **CI pipeline for tests** | Automated runs on Jenkins or GitHub Actions on every push or pull request |
+| **Flaky test investigation** | Root-cause analysis of unstable tests and a plan to fix them |
+| **Regression and smoke suites** | Prioritized, automated coverage of your critical user flows |
+
+Scoped, fixed-price projects and short audits are a great way to start. Tell me what you're testing and I'll suggest a first step.
+
+---
+
+## 🛠️ Tech Stack
+
+**UI automation:** Playwright · Selenium WebDriver · TestNG · Page Object Model · Cross-browser testing
+**API testing:** REST Assured · Postman
+**Languages:** Java · TypeScript · JavaScript
+**CI/CD and tools:** Jenkins · GitHub · Maven · Jira
+
+---
+
+<!--
+## 🚀 Featured Projects
+Uncomment and edit this section as each demo repo goes live.
+
+| Project | What it shows | Stack |
+| --- | --- | --- |
+| [playwright-ts-framework](https://github.com/richasharma-testcraft/playwright-ts-framework) | End-to-end framework with Page Objects, fixtures, reporting and CI | Playwright, TypeScript, GitHub Actions |
+| [api-automation-restassured](https://github.com/richasharma-testcraft/api-automation-restassured) | API test suite with reusable specs and reports | Java, REST Assured, TestNG, Maven |
+| [selenium-testng-framework](https://github.com/richasharma-testcraft/selenium-testng-framework) | Selenium framework with POM, TestNG and Jenkins pipeline | Java, Selenium, TestNG, Jenkins |
+-->
+
+## 💼 Experience
+
+**QA Automation Engineer, Dilato** · June 2026 – Present
+UI automation with Playwright, end-to-end workflow coverage, regression support and failure investigation.
+
+**Software Test Engineer, TEKPYRAMID** · November 2025 – May 2026
+Manual and automated testing with Selenium (Java), TestNG and Page Object Model.
+
+**Software QA Trainee, QSPIDERS** · January 2025 – October 2025
+Manual testing, Core Java, Selenium WebDriver and API testing fundamentals.
+
+---
+
+## 📫 Let's Connect
+
+- 💼 Upwork: [Richa Sharma](https://www.upwork.com/freelancers/~01ddc41dc7980f70ea?mp_source=share)
+- 🔗 LinkedIn: [richa-sharma](https://www.linkedin.com/in/richa-sharma-467714388)
+- 🐙 GitHub: [richasharma-testcraft](https://github.com/richasharma-testcraft)
+
+> This profile contains independent demonstration projects created to showcase QA automation skills. No employer or client proprietary code, credentials, test data, or confidential information is included.
